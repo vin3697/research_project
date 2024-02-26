@@ -1,0 +1,8 @@
+prefix=/home/vin/catkin_ws/devel
+
+Name: ohmni_bot_2dnav
+Description: Description of ohmni_bot_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

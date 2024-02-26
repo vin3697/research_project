@@ -1,0 +1,8 @@
+prefix=/home/vin/catkin_ws/install
+
+Name: object_detection_bot
+Description: Description of object_detection_bot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

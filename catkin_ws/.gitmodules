@@ -1,0 +1,15 @@
+[submodule "darknet_ros"]
+	path = darknet_ros
+	url = ./src/darknet_ros/
+[submodule "octomap_mapping"]
+	path = octomap_mapping
+	url = ./src/octomap_mapping/
+[submodule "orb_slam_2_ros"]
+	path = orb_slam_2_ros
+	url = ./src/orb_slam_2_ros/
+[submodule "robocup_msgs"]
+	path = robocup_msgs
+	url = ./src/robocup_msgs/
+[submodule "ros_face_recognition"]
+	path = ros_face_recognition
+	url = ./src/ros_face_recognition/

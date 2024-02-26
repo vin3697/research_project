@@ -1,0 +1,31 @@
+
+(cl:in-package :asdf)
+
+(defsystem "robocup_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "Action" :depends-on ("_package_Action"))
+    (:file "_package_Action" :depends-on ("_package"))
+    (:file "Box" :depends-on ("_package_Box"))
+    (:file "_package_Box" :depends-on ("_package"))
+    (:file "Entity" :depends-on ("_package_Entity"))
+    (:file "_package_Entity" :depends-on ("_package"))
+    (:file "Entity2D" :depends-on ("_package_Entity2D"))
+    (:file "_package_Entity2D" :depends-on ("_package"))
+    (:file "Entity2DList" :depends-on ("_package_Entity2DList"))
+    (:file "_package_Entity2DList" :depends-on ("_package"))
+    (:file "EntityList" :depends-on ("_package_EntityList"))
+    (:file "_package_EntityList" :depends-on ("_package"))
+    (:file "InterestPoint" :depends-on ("_package_InterestPoint"))
+    (:file "_package_InterestPoint" :depends-on ("_package"))
+    (:file "NavigationAction" :depends-on ("_package_NavigationAction"))
+    (:file "_package_NavigationAction" :depends-on ("_package"))
+    (:file "OAction" :depends-on ("_package_OAction"))
+    (:file "_package_OAction" :depends-on ("_package"))
+    (:file "OrganizedActionList" :depends-on ("_package_OrganizedActionList"))
+    (:file "_package_OrganizedActionList" :depends-on ("_package"))
+    (:file "gm_bus_msg" :depends-on ("_package_gm_bus_msg"))
+    (:file "_package_gm_bus_msg" :depends-on ("_package"))
+  ))

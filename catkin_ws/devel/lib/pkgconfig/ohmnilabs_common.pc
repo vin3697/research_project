@@ -1,0 +1,8 @@
+prefix=/home/vin/catkin_ws/devel
+
+Name: ohmnilabs_common
+Description: Description of ohmnilabs_common
+Version: 0.0.1
+Cflags: -I/home/vin/catkin_ws/src/tb_ros_common/ohmnilabs_common/include
+Libs: -L${prefix}/lib -lohmnilabs_common
+Requires: visualization_msgs

@@ -1,0 +1,8 @@
+prefix=/home/vin/catkin_ws/install
+
+Name: grid_map_loader
+Description: Description of grid_map_loader
+Version: 1.6.7
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
