@@ -1,17 +1,14 @@
 
-README.MD
 
-===================================================================================
 
 ROS doesnt works properly on Virtual Machine so the user operating system must be linux.
 
 We have used noetic ros version on ubuntu 20.04.
 The butler robot uses melodic ros version with ubuntu 18.04.
 
-===================================================================================
 
-#ORB SLAM
------------------------------------------------------------------------------------
+# ORB SLAM
+
 For implementation of ORB SLAM we have used repository by aappliedAI-initiative:
 link for the github repository is: https://github.com/appliedAI-Initiative/orb_slam_2_ros
 
@@ -55,12 +52,13 @@ Steps we have done for implementation of ORB SLAM and one can do if he/she is a 
 
    The user can run the command for saving the map and 2D map of the environment is saved in pgm format with yaml file as well.
 
+#### Implementation with monocular camera and comparison with LIDAR Hector SLAM  
 
-===================================================================================
+![GitHub Logo](ORBSLAM.png)
 
-#YOLOv3 Object detection
+---
 
-===================================================================================
+# YOLOv3 Object detection
 
 
 We have used this repository for building object detection in butler robot
@@ -71,14 +69,14 @@ The steps given in the repository are very clear and easy to implement.
 
 User has to give ros image topic in the launch file and paths for different directories.
 
+#### Implementation of YOLOv3
+
+![GitHub Logo](YOLO.png)
 
 
+# Face recognition
 
-===================================================================================
 
-#Face recognition
-
-===================================================================================
 
 https://github.com/jacques-saraydaryan/ros_face_recognition
 
@@ -94,13 +92,10 @@ In the launch file user must provide the camera ros topic and requried paths of 
 
 We have given the camera ros topic direclty in the  PeopleFaceIdentification_simpl.py script.
 
+![GitHub Logo](face.png)
 
 
-===================================================================================
-
-CUDA installation.
-
-===================================================================================
+#### CUDA installation.
 
 The user must have CUDA installed on his/her local system as YOLO and Face recognition uses GPU for its processing.
 
